@@ -1,0 +1,19 @@
+*{
+	margin: 0;
+}
+/*un elemento block puedo ajustar el ancho*/
+.elemento1{
+	border: 2px solid;
+	width: 50%;
+	display: inline-block;
+	/*display none desaparece el elemento y lo quita
+
+	visibility hidden oculta el elemento peroaun existe para agregar interaccion*/
+}
+
+.elemento2{
+	border: 2px solid;
+	width: 50%;
+}
+/*un elemento block no permite que quede inline
+si quiero que se pongan un elemento sobre otro requerimos elemento inline*/

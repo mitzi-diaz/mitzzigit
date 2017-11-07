@@ -1,0 +1,26 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.unicornio{
+	padding: 2%;
+	padding-left: 40%
+
+}
+.primermenu{
+	
+	background-color: blue;
+	border-color: black;
+	}
+ul{
+	margin: auto;
+	background-color: black;
+	padding-left: 30%;
+
+}
+.fondo{
+	background-image: url(http://www.wujinshike.com/data/wallpapers/127/WDF_1688827.jpg);
+	background-size: content; 
+
+	height: 300px;
+}

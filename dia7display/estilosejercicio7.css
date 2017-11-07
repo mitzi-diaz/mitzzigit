@@ -1,0 +1,67 @@
+*{
+	margin: 0px;
+	padding: 0;
+}
+header{ /*mide 0 display block*/
+	border: 2px solid red;
+
+}
+.fondo{
+	border: 2px solid blue;
+	height: 400px;
+	background-image: url("https://images2.alphacoders.com/467/thumb-350-467022.jpg");
+	background-repeat: no-repeat;
+	/*cambiamos la medida de imagen*/
+	background-size: cover; 
+	/*cambiamos la de donde parte la imagen*/
+	background-position: center;
+
+	padding: 50px 150px;
+	/*algunos propiedader reciben hasta 4 valores, especificamos padding de cada lado empezamos arriba y desde manecillas del reloj, si especifico dos valores da vertic y horizon sile dosy un solo valor aplica a todo*/
+	
+	/*padding va subiendo siempre los valores margenes padding y bordes suman*/
+}
+.contenido-header{
+	border: 2px solid white;
+	height: 300px;
+}
+.texto{
+	padding-left: 30px;
+	color: white;
+	border: 2px solid blue;
+	height: auto;
+	width: 70%;
+	display: inline-block;
+	margin: -2px;
+}
+.imagen{
+	border: 2px solid green;
+	height: auto;
+	/*width: 30%;*/
+	display: inline-block;
+	margin: -2px;
+	padding-left: 50px;
+}
+/*inline  no puee cambiar tamapaños pero varia de acuerdo al contenido
+inline block: dará el mismo contenido a todo y puedo cambiar sus dimensiones*/
+
+/*cuando el valor o propiedad tiene web kid esta en fase de prueba pero no funciona en todos los navgadores*/
+.iphone{
+	height: 300px;
+}
+h1{
+	color: white;
+	font-family: arial;
+	font-weight: lighter;
+	margin-bottom: 50px;
+
+}
+ h2{
+
+ 	margin-bottom: 50px;
+
+}
+
+p{
+	margin-bottom: 50px;
+}

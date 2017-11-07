@@ -1,0 +1,28 @@
+/*selectores*/
+*{
+	padding: 0;
+	MARGIN: 0;
+}
+li{
+	background-color: #4EACCC;
+	font-size: 30px;
+}
+nav{
+	background-color: #EE90EB;
+	height: 50%;
+	size: 50%;
+}
+DIV{
+	background-color: #1BBB95;
+	padding-left: 43%;
+	margin-top: 80PX;
+	padding-top: 50PX;
+	padding-bottom: 50px;
+	border-radius: 80px;
+}
+h1{
+	border: 2px solid black;
+	height: 100PX;
+	width: 100PX;
+	border-radius: 40px;
+}

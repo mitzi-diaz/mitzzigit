@@ -1,0 +1,22 @@
+html{
+	background-color: pink;
+}
+
+.unicornios{
+	height: auto;
+	width:100%
+}
+
+body{
+	background-color: #8e437e;
+}
+
+#listadounicornios{
+	padding-left: 50px;
+	margin-top: 22px;
+	margin-bottom: 23px;
+}
+
+#conocemas{
+	background-color:#c0ffd7;
+}

@@ -1,0 +1,66 @@
+/*para quese alinee en una sola hilera usas display: inline-block*/
+/*navegaciones*/
+nav{
+	font-size:40px;
+}
+/*el punto en css es para indicar que hay un clase*/
+.principal{
+	front-size: 60px;
+	font-family: helvetica;
+}
+/*un id se pone con gatito*/
+
+#twitter{
+	font-size: 70px
+	font-family: helvetica;
+}
+.rojo{
+	color-:red;
+}
+.azul{
+	color: blue;
+}
+.fondo-morado{
+	color: purple;
+}
+.fondo-naranja{
+	color: orange;
+	background-color: black
+}
+
+/*las tres manteras que se representan espacios
+dos-palabras
+dos_palbras
+dosPalabras*/
+
+/*cada cosa que quieras en 
+una pag web siempre tiene que estar a la misma altura*/
+
+/*a partir de aqui es para imputs*/
+i{
+	font-size: 80px;
+}
+/*a partir de aqui es para botones*/
+.registro{
+	/*width = altura
+	  height = ancho*/
+	width: 200px;
+	height: 100px;
+	background-color: #cc1785;
+}
+.texto{
+	/*por si el servidor no localiza la primer fuente marcada,  la segunda fuente despues de la coma entra en acción, es una red de seguridad*/
+	font-family: helvetica;
+}
+/*esto hace que tu boton se vaya a la izq sup
+no es tan viable*/
+.FLOTA{
+	width: 200px;
+	height: 100px;
+	background-color: #001785;
+	float: right;
+}
+/*así se rompe*/
+div{
+	clear: both;
+}

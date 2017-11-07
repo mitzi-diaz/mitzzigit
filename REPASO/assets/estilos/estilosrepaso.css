@@ -1,0 +1,21 @@
+
+.texto-azul{
+	text-decoration-color: blue;
+}
+
+/*para quitar espacios en blanco de navegador cuando se inicia un nuevo archivo*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+/*con esto se modifican lso bordes*/
+
+
+a{
+	display: inline-block;
+	margin: 10px 10px 10px 10px
+	border:1px solid red;
+}
+/*cuando quieres quitarle los bullets se quita en lista poniendo list style: none;*/
+

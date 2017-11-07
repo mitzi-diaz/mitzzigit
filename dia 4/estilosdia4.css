@@ -1,0 +1,20 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*esto es para que la imagen quede de fondo*/
+.fondo{
+	background-image: url(https://i1.wp.com/www.daledetalles.com/wp-content/uploads/2013/10/felizdiademuertos11.jpg);
+/*background-repeat: no-repeat;
+	border: 2px solid;*/
+	height: 700px;
+
+	/*background-size: content;*/
+	background-repeat: no-repeat;
+
+/*esto es para enmarc,ar la imagen;*/
+	border: 2px solid
+
+	/*background-repeat: no-repeat;
+	border: 2px solid;*/	
+}
